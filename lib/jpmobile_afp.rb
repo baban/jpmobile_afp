@@ -1,5 +1,2 @@
 require "jpmobile_afp/version"
-
-module JpmobileAfp
-  # Your code goes here...
-end
+require "jpmobile/mobile/android_feature_phone"

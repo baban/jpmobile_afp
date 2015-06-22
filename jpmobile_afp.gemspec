@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["babanba.n@gmail.com"]
   spec.summary       = %q{jpmobile extention for android future phone(aka. ガラホ)}
   spec.description   = %q{jpmobile extention for android future phone(aka. ガラホ)}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/baban/jpmobile_afp"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
