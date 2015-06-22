@@ -6,10 +6,10 @@ require 'jpmobile_afp/version'
 Gem::Specification.new do |spec|
   spec.name          = "jpmobile_afp"
   spec.version       = JpmobileAfp::VERSION
-  spec.authors       = ["m_matsubara"]
-  spec.email         = ["m_matsubara@okwave.co.jp"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["baban"]
+  spec.email         = ["babanba.n@gmail.com"]
+  spec.summary       = %q{jpmobile extention for android future phone(aka. ガラホ)}
+  spec.description   = %q{jpmobile extention for android future phone(aka. ガラホ)}
   spec.homepage      = ""
   spec.license       = "MIT"
 
