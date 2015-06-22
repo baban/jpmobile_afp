@@ -1,29 +1,23 @@
 # JpmobileAfp
 
-TODO: Write a gem description
+jpmobileにガラホであるかどうかの android_smart_phone? メソッドを継ぎ足します。
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Gemfileに一行を継ぎ足してbundle installして下さい。
 
-    gem 'jpmobile_afp'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jpmobile_afp
+```ruby
+gem 'jpmobile_afp'
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+次の様に書く事で、ガラホであるかどうか判別してくれます。
 
-## Contributing
+```ruby
+# trueならガラホ
+request.android_feature_phone?
+```
 
-1. Fork it ( https://github.com/[my-github-username]/jpmobile_afp/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+このgemでは基本的ガラホは、スマホであると分類されます。
+ガラケーと同じviewを充てるのは難しくなるでしょう。
